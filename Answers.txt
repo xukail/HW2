@@ -1,0 +1,47 @@
+
+Outputs:
+
+1a
+        The number of ORFs for:
+        start positions have indices congruent to 1 mod 3:  37897
+        start positions have indices congruent to 2 mod 3:  38771
+        start positions have indices congruent to 0 mod 3:  38529
+
+1b
+        The total number of ORFs of length less than 50:  88030
+
+1c
+        The total number of ORFs of length greater than 1400:  118
+
+1d
+        The total number of "simple forward strand CDSs" you found in GenBank:  881
+
+1e
+        P(A | Axy):
+               A        C       G       T
+            A  6580     1780    3965    3302
+            C  1656     685     293     770
+            G  3295     999     1981    950
+            T  3347     837     2250    2895
+
+        Q(A | Axy):
+               A        C       G       T
+            A  28571    8454    13459   14240
+            C  7929     4319    1209    3549
+            G  12136    4744    7204    3650
+            T  12913    7386    5369    12610
+
+1f
+        Length less than 50:
+        start coordinate: 1, length: 39, log-base-2 Markov model score: 1.07345213609, simple forward strand CDSs: False
+        start coordinate: 3, length: 6, log-base-2 Markov model score: -0.472035122859, simple forward strand CDSs: False
+        start coordinate: 9, length: 15, log-base-2 Markov model score: -0.642633944682, simple forward strand CDSs: False
+        start coordinate: 24, length: 12, log-base-2 Markov model score: 0.432593804743, simple forward strand CDSs: False
+        start coordinate: 40, length: 15, log-base-2 Markov model score: 0.448489740657, simple forward strand CDSs: False
+
+        Length greater than 1400:
+        start coordinate: 17619, length: 1614, log-base-2 Markov model score: 54.0512298248, simple forward strand CDSs: True
+        start coordinate: 33626, length: 1623, log-base-2 Markov model score: 65.5085542085, simple forward strand CDSs: True
+        start coordinate: 42725, length: 2388, log-base-2 Markov model score: 75.7341689622, simple forward strand CDSs: True
+        start coordinate: 74592, length: 1422, log-base-2 Markov model score: 36.2835685179, simple forward strand CDSs: True
+        start coordinate: 76820, length: 1665, log-base-2 Markov model score: 61.4955955207, simple forward strand CDSs: True
