@@ -46,7 +46,7 @@ Outputs:
         start coordinate: 74592, length: 1422, log-base-2 Markov model score: 36.2835685179, simple forward strand CDSs: True
         start coordinate: 76820, length: 1665, log-base-2 Markov model score: 61.4955955207, simple forward strand CDSs: True
 
-2 (ROC_Q2 pictures)
+2 (Pictures in folder Q2)
 
 3
         'length': 42
@@ -60,7 +60,7 @@ Outputs:
         'false positive count': 89
         'true positive rate': 0.8013620885357549
         
-5(Question_5.png)
+5(Pictures in folder Q5)
         At the beginning cut perpendicular line in Question_5.png,
         false positive count = 156
         false negative count = 114160

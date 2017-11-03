@@ -143,13 +143,13 @@ def question5_1():
         # scatter points
         if value['status']:
             num_true += 1
-            if value['length'] > 1400 or value['length'] < 50:
-                x_true.append(value['length'])
-                y_true.append(value['MMS'])
+            # if value['length'] > 1400 or value['length'] < 50:
+            x_true.append(value['length'])
+            y_true.append(value['MMS'])
         else:
-            if value['length'] > 1400 or value['length'] < 50:
-                x_false.append(value['length'])
-                y_false.append(value['MMS'])
+            # if value['length'] > 1400 or value['length'] < 50:
+            x_false.append(value['length'])
+            y_false.append(value['MMS'])
         if value['length'] > 1400:
             x_B.append(value['length'])
             y_B.append(value['MMS'])
@@ -491,5 +491,6 @@ def print_1f(orf_map):
 
 if __name__ == "__main__":
     # main()
-    # question5_1()
+    question5_1()
     # question5_2()
+    print 'Done.'
