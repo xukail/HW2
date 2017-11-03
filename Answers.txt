@@ -45,3 +45,29 @@ Outputs:
         start coordinate: 42725, length: 2388, log-base-2 Markov model score: 75.7341689622, simple forward strand CDSs: True
         start coordinate: 74592, length: 1422, log-base-2 Markov model score: 36.2835685179, simple forward strand CDSs: True
         start coordinate: 76820, length: 1665, log-base-2 Markov model score: 61.4955955207, simple forward strand CDSs: True
+
+2 (ROC_Q2 pictures)
+
+3
+        'length': 42
+        'true positive count': 707
+        'false positive count': 88
+        'true positive rate': 0.8024971623155505
+
+4
+        'Markov Model Score': -5.730611938767851
+        'true positive count': 706
+        'false positive count': 89
+        'true positive rate': 0.8013620885357549
+        
+5(Question_5.png)
+        At the beginning cut perpendicular line in Question_5.png,
+        false positive count = 156
+        false negative count = 114160
+        With function y = -29.2493783628 * x + 10611.7493279
+
+        80% true positive rate is reached at y = -29.2493783628 * x + 12450
+        wher slope is -29.2493783628 and y-intercept = 12450, the rate increases as the y-intercept decreases
+        true positive count: 707,
+        false positive count: 84,
+        true positive rate: 0.8024971623155505,
